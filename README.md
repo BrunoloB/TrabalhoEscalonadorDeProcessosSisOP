@@ -5,13 +5,14 @@
 - Aluno 2: Cauan Pôrto Machado
 - Aluno 3: Felipe Morschbacher
 - Aluno 4: Lucca Habigzang
-- Aluno 5: Nícolas Leffa Pessel
+- Aluno 5: Lucas Cardoso da Luz
+- Aluno 6: Nícolas Leffa Pessel
 
 ## Linguagem utilizada
-O trabalho foi feito utilizando a linguagem Python 3.14.10
+O trabalho foi feito utilizando a linguagem Python 3.14-slim
 
 ## Premissas do escalonador
-- Quantum:
+- Quantum: 10 ms
 - Número máximo de processos:
 - Tempos de CPU:
 - Tempos de I/O:
@@ -20,13 +21,13 @@ O trabalho foi feito utilizando a linguagem Python 3.14.10
 
 ## Como executar o projeto
 ```bash
-# Execução tradicional da linguagem escolhida
-# Exemplo C:
-gcc src/*.c -o escalonador
-./escalonador
+# Execução via Python local
+py ./escalonador.py
 
-# Bônus Docker, se implementado:
+# Build Docker:
 docker build -t so-escalonador-grupo-1 .
+
+# Execução via Docker:
 docker run --rm so-escalonador-grupo-1
 ```
 
