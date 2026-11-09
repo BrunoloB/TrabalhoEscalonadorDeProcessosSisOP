@@ -26,8 +26,8 @@ gcc src/*.c -o escalonador
 ./escalonador
 
 # Bônus Docker, se implementado:
-docker build -t so-escalonador-grupo-x .
-docker run --rm so-escalonador-grupo-x
+docker build -t so-escalonador-grupo-1 .
+docker run --rm so-escalonador-grupo-1
 ```
 
 ## O que aparece na saída
