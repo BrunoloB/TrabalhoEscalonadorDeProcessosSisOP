@@ -9,7 +9,7 @@
 - Aluno 6: Nícolas Leffa Pessel
 
 ## Linguagem utilizada
-O trabalho foi feito utilizando a linguagem Python 3.14-slim
+O trabalho foi feito utilizando a linguagem Python 3.14
 
 ## Premissas do escalonador
 - Quantum: 10 ms
