@@ -24,10 +24,8 @@ O trabalho foi feito utilizando a linguagem Python 3.14
 # Execução via Python local
 py ./escalonador.py
 
-# Build Docker:
-docker build -t so-escalonador-grupo-1 .
-
 # Execução via Docker:
+docker build -t so-escalonador-grupo-1 .
 docker run --rm so-escalonador-grupo-1
 ```
 
