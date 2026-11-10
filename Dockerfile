@@ -4,9 +4,10 @@ ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
 
 WORKDIR /src
 
-COPY src/ ./src/
+# Como temos apenas a pasta src, deixaremos os arquivos na pasta src do container
+COPY src/ .
 
 RUN useradd --create-home user
 USER user
 
-CMD ["python", "-m", "src.main"]
+CMD ["python", "-m", "main"]

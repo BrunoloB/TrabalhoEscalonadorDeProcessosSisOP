@@ -22,7 +22,7 @@ O trabalho foi feito utilizando a linguagem Python 3.14
 ## Como executar o projeto
 ```bash
 # Execução via Python local
-py ./escalonador.py
+py ./src/main.py
 
 # Execução via Docker:
 docker build -t so-escalonador-grupo-1 .
